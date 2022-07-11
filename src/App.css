@@ -1,0 +1,126 @@
+.App {
+  background-color: #042e2e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: rgba(255, 255, 255, 0.742);
+}
+
+.title {
+  background-image: url(./img/Image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 50vh;
+
+}
+
+.title2 {
+  background-image: url(./img/Name.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20%;
+  width: 100%;
+  min-height: 50vh;
+
+}
+
+.location {
+  border: 6px solid rgba(37, 2, 30, 0.085);
+  border-radius: 10px;
+  width: min(900px, 90%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(36, 24, 38, 0.427);
+}
+
+.locationdetails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 10px;
+  text-align: center; 
+}
+
+.appcards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: min(900px,90%);
+  border-radius: 10px;
+  background: rgb(0, 0, 0, 0.2);
+  border: 6px solid rgba(37, 2, 30, 0.085);
+
+}
+
+.cardcharacter img {
+  width: min(100%);
+}
+
+.cardcharacter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 8px solid rgba(251, 247, 255, 0.038);
+  border-radius: 15px;
+  width: min(270px,90%);
+  background-color: #062226(35, 11, 55, 0.443);
+
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.infodetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  font-size: 20px;
+  height: 100px;
+}
+
+.cardcharacter:hover{
+  border: 8px solid rgba(179, 179, 179, 0.837);
+  transition: .2s;
+  width: min(275px,90%);
+  background-color: rgba(26, 8, 40, 0.571);
+
+}
+
+.button{
+  border: none;
+  background-color: rgba(16, 104, 72, 0.829);
+  margin-left: 1rem;
+  width: 80px;
+  height: 33px;
+  border-radius: 20px;
+}
+
+
+
+
+
